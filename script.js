@@ -2,7 +2,7 @@
 const CONFIG = {
   name: 'Vishnupriya', // her name, e.g. 'Anu'
   from: 'ABHIJITH', // sender's name
-  birthday: '2026-11-27T00:00:00+05:30', // Midnight IST. Keep this for deployment.
+  birthday: new Date(Date.now() + 10000).toISOString(), // Midnight IST. Keep this for deployment.
   wish: 'Here’s to nineteen, new beginnings, favourite books, beautiful skies and all the little things that make life wonderful.',
   solo: 'assets/images/portrait-1.webp',
   photos: [
