@@ -12,34 +12,18 @@ const CONFIG = {
     {src: 'assets/images/portrait-4.webp', caption: 'A little lavender magic.'}
   ],
   // Replace this draft later. Use \n\n for a new paragraph or a template literal.
-  letter: `Happyyy Birthday Vishnupriya!! 💜✨
+  letter: `Vishnupriya!
 
-Finally 19 huh? 😂
-
-Ik we haven't talked much, but from whatever little I've got to know abt you, there are a few things I really admire abt you.
-
-The way you're so organized, how you carry yourself, how polite and kind you are towards others. You're kinda reserved too, but there's nothing wrong with tht. I actually like how you just stay yourself without trying to impress anyone.
-
-And your interest in books and paintings is something I find really nice. Ig you already figured out why I chose this theme for the website 😂
-
-I wanted to do something a lil different instead of just sending a normal birthday wish, so I ended up making this website. Idk how much you'll like it, but I hope it brings a smile to your face.
-
-I genuinely hope this year brings you a lot of happiness, peace and everything you've been wishing for. I hope you achieve whatever you're working hard for and get to enjoy all the little things you love.
-
-More good books, more beautiful skies, more peaceful days and lots of happy memories!! ✨
-
-And no matter how busy or stressful life gets, don't forget to take care of yourself and enjoy things at your own pace.
-
-Never feel like you have to change who you are just to fit in. Keep being yourself.
-
-Anywayyy, before this turns into an entire novel 😂
-
-Once again, Happiest 19th Birthday Vishnupriya!! 💜
-
-Hope you have a really wonderful day and an even better year ahead.
-
-Anddd I hope this little surprise was worth the wait! 🌙✨`
-};
+  Happy birthdayyy : )
+  
+  I wasn't really sure what to write here honestly. We've barely had that many conversations, and I know we're not exactly close, but I still wanted to write you something instead of just sending a birthday text and leaving it at that.
+  
+  I still remember some of our little conversations, even the ones that were just about exams, notes or random college stuff. They're probably pretty ordinary, but I guess I just wanted to say that I did appreciate those moments.
+  
+  Anyway, I didn't want your birthday to pass without wishing you properly. I hope you have a really lovely day. Take care : )
+  
+  Happy birthday once again!`
+  };
 // Preload all portrait images in the background
 const preloadedImages = CONFIG.photos.map(photo => {
     const img = new Image();
