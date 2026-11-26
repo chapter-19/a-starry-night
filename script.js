@@ -32,6 +32,13 @@ const CONFIG = {
 
   Enjoy your special day, and keep being you.`
 };
+// Preload all portrait images in the background
+const preloadedImages = CONFIG.photos.map(photo => {
+    const img = new Image();
+    img.fetchPriority = 'high';
+    img.src = photo.src;
+    return img;
+});
 const $ = id => document.getElementById(id);
 const params = new URLSearchParams(location.search);
 // Local testing only, never active on GitHub Pages. ?test=10 or ?preview=1
