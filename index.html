@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#201b38">
+<meta name="robots" content="noindex, nofollow, noimageindex">
+<title>A little birthday story</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<div class="sky" aria-hidden="true"></div><div id="stars" aria-hidden="true"></div>
+<main>
+<section id="countdown" class="screen countdown" aria-labelledby="countTitle">
+<div class="moon-art" aria-hidden="true"><span>✦</span><i></i><span>✧</span></div>
+<p class="eyebrow">A STORY WRITTEN FOR YOU</p>
+<h1 id="countTitle">Once upon<br><em>a starry night...</em></h1>
+<p class="intro">Somewhere between the stars and the turning of a page, something lovely is waiting.</p>
+<div class="timer" role="timer" aria-label="Time until your birthday"><div><strong id="hours">00</strong><small>HOURS</small></div><b>:</b><div><strong id="minutes">00</strong><small>MINUTES</small></div><b>:</b><div><strong id="seconds">00</strong><small>SECONDS</small></div></div>
+<p>Your next chapter begins at midnight.</p>
+<div class="date-label"><span>✧</span> 27 NOVEMBER 2026 <span>✧</span></div>
+</section>
+<div id="story" hidden>
+<header class="topline"><span>THE BIRTHDAY EDITION</span><span>27 · 11 · 26</span></header>
+<section class="screen chapter reveal" hidden aria-labelledby="revealTitle">
+<p class="eyebrow">CHAPTER I · A NEW BEGINNING</p>
+<div class="portrait"><div class="portrait-inner"><img id="solo" alt="Birthday portrait"></div><span class="portrait-star" aria-hidden="true">✦</span><span class="age-medallion">19</span></div>
+<h1 id="revealTitle" tabindex="-1">Happy <em>19th</em><br>Birthday<span data-name-inline></span>!</h1>
+<p id="wish" class="intro"></p>
+<button class="primary" data-next>Turn the page <span>→</span></button>
+</section>
+<section class="screen chapter" hidden aria-labelledby="cakeTitle">
+<p class="eyebrow">CHAPTER II · A LITTLE WISH</p>
+<h1 id="cakeTitle" tabindex="-1">Make a <em>wish.</em></h1><p class="intro">For all the things you hope this year will bring.</p>
+<div class="cake-scene"><span class="cake-spark a">✧</span><span class="cake-spark b">✦</span><span class="cake-spark c">✧</span><div class="cake"><div class="candles"><button class="candle" aria-label="Blow out candle 1"><i></i><span></span></button><button class="candle" aria-label="Blow out candle 2"><i></i><span></span></button><button class="candle" aria-label="Blow out candle 3"><i></i><span></span></button></div><div class="icing"></div><div class="layer"><span>✧</span><strong>19</strong><span>✧</span></div><div class="plate"></div></div></div>
+<p id="cakeMessage" aria-live="polite">Tap the three candles to make your wish.</p>
+<button class="primary" data-next>Turn the page <span>→</span></button>
+</section>
+<section class="screen chapter gallery" hidden aria-labelledby="galleryTitle">
+<p class="eyebrow">CHAPTER III · THE LITTLE THINGS</p>
+<h1 id="galleryTitle" tabindex="-1">A little <em>gallery.</em></h1><p class="intro">Three frames, a few smiles, and a whole new chapter ahead.</p>
+<div class="polaroid" id="polaroid"><span class="tape" aria-hidden="true"></span><div class="photo"><img id="galleryPhoto" alt="Birthday portrait"></div><p id="caption"></p></div>
+<div class="gallery-nav"><button id="prevPhoto" aria-label="Previous photo">‹</button><div id="photoDots" aria-label="Photo selection"></div><button id="nextPhoto" aria-label="Next photo">›</button></div><p class="swipe-hint">SWIPE OR TAP TO EXPLORE</p>
+<button class="primary" data-next>Turn the page <span>→</span></button>
+</section>
+<section class="screen chapter letter-screen" hidden aria-labelledby="letterTitle">
+<p class="eyebrow">CHAPTER IV · A LITTLE NOTE</p>
+<h1 id="letterTitle" tabindex="-1">A letter <em>for you.</em></h1>
+<p class="intro">A few words for your new chapter at nineteen.</p>
+<button id="envelope" class="envelope" aria-expanded="false" aria-controls="letter"><span class="seal">✦</span><span class="open-label">Tap to open</span></button>
+<article id="letter" hidden><p class="letter-date">27 November 2026</p><p id="salutation"></p><p id="letterText"></p><p id="signature"></p><span class="letter-end" aria-hidden="true">✧ ── ✧</span></article>
+<button class="primary" data-next>The final page <span>→</span></button>
+</section>
+<section class="screen chapter finale" hidden aria-labelledby="finalTitle">
+<p class="eyebrow">THE FINAL PAGE · NOT THE END</p>
+<div class="book" aria-hidden="true"><svg viewBox="0 0 240 145" fill="none"><path d="M120 131Q67 103 13 120L13 28Q65 10 120 39Q175 10 227 28V120Q173 103 120 131Z" fill="#c7b3e7" stroke="#ead9aa" stroke-width="2"/><path d="M120 39V131M22 40Q74 26 110 49M22 53Q74 39 110 62M22 66Q74 52 110 75M130 49Q166 26 218 40M130 62Q166 39 218 53M130 75Q166 52 218 66" stroke="#67537e" stroke-width="2" opacity=".7"/><path d="M120 39V131" stroke="#f7e4b5" stroke-width="3"/><path d="M156 20L161 9L166 20L177 25L166 30L161 41L156 30L145 25Z" fill="#f8dfa2"/></svg></div>
+<h1 id="finalTitle" tabindex="-1">To be <em>continued...</em></h1>
+<p class="intro">May nineteen bring you stories worth reading, skies worth admiring, and little moments that make you smile.</p><p class="final-wish">Happy Birthday<span data-name-inline></span>! <span aria-hidden="true">✦</span></p>
+<button id="restart" class="primary">Read again <span>↻</span></button>
+</section>
+<nav id="navigation" aria-label="Chapter navigation"><button id="back" aria-label="Previous chapter">←</button><div id="chapterDots"></div><span id="progress"></span></nav>
+</div>
+<noscript>Please enable JavaScript to open your birthday story.</noscript>
+</main>
+</body></html>
