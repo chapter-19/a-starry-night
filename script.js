@@ -8,8 +8,8 @@ const CONFIG = {
   photos: [
     {src: 'assets/images/portrait-1.webp', caption: 'A little elegance.'},
     {src: 'assets/images/portrait-2.webp', caption: 'A page full of smiles.'},
-    {src: 'assets/images/portrait-3.webp', caption: 'A little lavender magic.'},
-    {src: 'assets/images/portrait-4.webp', caption: 'A moment of quiet beauty.'}
+    {src: 'assets/images/portrait-3.webp', caption: 'A moment of quiet beauty.'},
+    {src: 'assets/images/portrait-4.webp', caption: 'A little lavender magic.'}
   ],
   // Replace this draft later. Use \n\n for a new paragraph or a template literal.
   letter: `Happy 19th Birthday! 💜
