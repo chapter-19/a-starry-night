@@ -2,7 +2,7 @@
 const CONFIG = {
   name: 'Vishnupriya', // her name, e.g. 'Anu'
   from: 'ABHIJITH', // sender's name
-  birthday: '2026-11-27T00:00:00+05:30', // Midnight IST. Keep this for deployment.
+  birthday: new Date(Date.now() + 10000).toISOString(), // Midnight IST. Keep this for deployment.
   wish: 'Here’s to nineteen, new beginnings, favourite books, beautiful skies and all the little things that make life wonderful.',
   solo: 'assets/images/portrait-1.webp',
   photos: [
@@ -12,25 +12,33 @@ const CONFIG = {
     {src: 'assets/images/portrait-4.webp', caption: 'A little lavender magic.'}
   ],
   // Replace this draft later. Use \n\n for a new paragraph or a template literal.
-  letter: `Happy 19th Birthday! 💜
+  letter: `Happyyy Birthday Vishnupriya!! 💜✨
 
-  There are a few things about you that I genuinely admire. The way you carry yourself, how organized and thoughtful you are, and how you manage to be reserved yet so polite and kind. There's something really admirable about your calm and composed personality.
+Finally 19 huh? 😂
 
-  You seem like someone who appreciates the little things in life — a good book, a beautiful painting, a peaceful evening, and perhaps a sky full of stars.
+Ik we haven't talked much, but from whatever little I've got to know abt you, there are a few things I really admire abt you.
 
-  What I appreciate about you is that you don't have to be the loudest person in the room to stand out. You have your own quiet charm, and that's something special in itself.
+The way you're so organized, how you carry yourself, how polite and kind you are towards others. You're kinda reserved too, but there's nothing wrong with tht. I actually like how you just stay yourself without trying to impress anyone.
 
-  As you begin your 19th chapter, I hope life brings you countless reasons to smile, beautiful memories, unexpected happiness, and opportunities to achieve everything you wish for.
+And your interest in books and paintings is something I find really nice. Ig you already figured out why I chose this theme for the website 😂
 
-  I hope you find more books that you never want to put down, more skies that make you stop and admire them, and more moments that make life feel beautiful.
+I wanted to do something a lil different instead of just sending a normal birthday wish, so I ended up making this website. Idk how much you'll like it, but I hope it brings a smile to your face.
 
-  I just wanted to make your birthday a little different and hopefully bring a smile to your face. That's the reason behind this little website.
+I genuinely hope this year brings you a lot of happiness, peace and everything you've been wishing for. I hope you achieve whatever you're working hard for and get to enjoy all the little things you love.
 
-  May your 19th chapter be as beautiful as the paintings you admire and as wonderful as the stories you love.
+More good books, more beautiful skies, more peaceful days and lots of happy memories!! ✨
 
-  Once again, Happy Birthday! ✨
+And no matter how busy or stressful life gets, don't forget to take care of yourself and enjoy things at your own pace.
 
-  Enjoy your special day, and keep being you.`
+Never feel like you have to change who you are just to fit in. Keep being yourself.
+
+Anywayyy, before this turns into an entire novel 😂
+
+Once again, Happiest 19th Birthday Vishnupriya!! 💜
+
+Hope you have a really wonderful day and an even better year ahead.
+
+Anddd I hope this little surprise was worth the wait! 🌙✨`
 };
 // Preload all portrait images in the background
 const preloadedImages = CONFIG.photos.map(photo => {
